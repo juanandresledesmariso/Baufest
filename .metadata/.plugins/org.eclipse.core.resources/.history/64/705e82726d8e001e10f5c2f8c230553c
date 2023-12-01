@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.267" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Test Login of DemoBlaze store" name="Verify Login is successful with valid credentials" time="0.025">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+And user enters correct username and password...............................passed
+When user clicks on login button............................................passed
+Then user is redirected to the home page....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

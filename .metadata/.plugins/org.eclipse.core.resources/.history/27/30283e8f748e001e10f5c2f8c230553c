@@ -1,0 +1,12 @@
+package StepDefinitions;
+
+import org.openqa.selenium.WebDriver;
+
+public class A_MainConfiguration {
+
+
+	WebDriver driver = null;
+	
+	@Given("Browser is open")
+	
+}

@@ -1,0 +1,19 @@
+package StepDefinitions;
+
+import org.openqa.selenium.WebDriver;
+import io.cucumber.java.en.Given;
+
+
+public class BrowserConfiguration {
+
+	WebDriver driver = null;
+	
+	@Given("browser is open")
+	public void browser_is_open() 
+	{		
+		System.out.println("Current Step: Browser is open");
+		System.getProperty("webdriver.chrome.driver", "/BaufestCucumber/src/test/resources/Drivers/chromedriver");		
+	}
+
+	
+}
